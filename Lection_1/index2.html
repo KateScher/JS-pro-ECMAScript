@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Рекурсия</title>
+  </head>
+  <body>
+    <div class="product">
+      <img src="" alt="" class="product__img" />
+      <div class="product__content">
+        <h3 class="product__name"></h3>
+        <p class="product__text"></p>
+      </div>
+    </div>
+    <script>
+      //n! = (n - 1) *n;
+      //4! = 6 * 4; // 24
+      //3! = 2 * 3; // 6
+      //2! = 1 * 2; // 2
+      //1! = 1;
+
+      ////
+
+      // function factorial(number) {
+      //   if (number === 1) {
+      //     return 1;
+      //   }
+      //   return factorial(number - 1) * number;
+      // }
+
+      // console.log(factorial(4));
+
+      {
+        tag: 'div',
+        class: 'product',
+        {
+          tag: 'img',
+          class: 'product__img',
+          scr: 'photo.png'
+        }
+      }
+    </script>
+  </body>
+</html>
