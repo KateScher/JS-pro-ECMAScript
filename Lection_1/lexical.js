@@ -3,7 +3,7 @@ const houses = [];
 let i = 0;
 while (i < 10) {
   let house = function () {
-    // Фугкция "дом"
+    // Функция "дом"
     console.log(i); // выводит номер дома
   };
   houses.push(house);
