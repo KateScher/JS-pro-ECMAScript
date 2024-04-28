@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 45px;
+}
+.feeling {
+  width: 256px;
+  height: 256px;
+  background-color: #fc28c3;
+  border: 2px solid #b51515;
+  background-image: url("happy_icon.png");
+}
+.changeFeeling {
+  background-color: darkgrey;
+  background-image: url("cry_icon.png");
+}
+button {
+  width: 100px;
+}
+
